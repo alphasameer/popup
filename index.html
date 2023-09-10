@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>sign up</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="main">
+<div class="form-box">
+<form method="get" action="#">
+<div>    
+<button type="submit" class="btn"><span class="icon"><i class="fa-brands fa-google"></i></span>Sign Up With Google</button>
+</div>
+<div>
+    <button type="submit" class="btn"><span class="icon"><i class="fa-solid fa-envelope"></i></span>Sign Up With Email</button> 
+</div>
+<div class="line">
+<hr><br>
+<h3>Or</h3>
+</div>
+<div>
+<h1>Sign in</h1>    
+</div>
+<div class="input-box">
+<label>Email</label> <br>
+<input type="text" placeholder="Enter Email" required>
+</div>
+<div class="input-box">
+<label>Password</label> <br>
+<input type="password" placeholder="Enter Password" required>
+</div>
+<div class="forgot" onclick="openpopup()">
+<a href="#">Forgot Password ?</a>    
+</div>
+<button type="submit" class="sign">Sign in</button>
+<div class="ac">
+<p>Don't have an account ? <a href="#">Register</a> here</p>    
+</div>
+ </form>   
+</div> 
+</div> 
+    
+<div class="popup" id="popup">
+<span><i class="fa-solid fa-xmark" onclick="cross()"></i></span>
+<div class="text">
+<h2>Forgot Password</h2>
+<p>Please enter your email to reset your Password</p>
+</div>
+<div form-box>
+<div><label>Email</label></div>
+<div><span><input type="email" placeholder="Enter Email"></span></div>
+</div>
+<button onclick="closepopup()">Continue</button>
+</div>
+
+<script>
+ let alert=document.getElementById("popup");
+ 
+    
+function openpopup(){
+    alert.classList.add("open-popup");
+    
+}
+
+function closepopup(){
+alert.classList.remove("open-popup");
+}
+
+function cross(){
+    alert.classList.remove("open-popup");
+}
+    
+</script>
+</body>    
+</html>
