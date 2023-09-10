@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width:420px;
+    background:#fff;
+    padding: 35px 35px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px grey;
+    
+}
+.main .btn{
+    position: relative;
+    width:100%;
+    padding: 10px; 
+    font-size: .9rem;
+    background: #EBF5FB;
+    border: none;
+    outline: none;
+    margin: 5px 0;
+    color:#162938;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.main .icon {
+    position: absolute;
+    font-size:1.2rem;
+    left: 80px;
+    top:9px;
+}
+
+.main .line {
+    position: relative;
+    margin:25px 0;
+    
+}
+.main .line h3 {
+    position: absolute;
+    background:white;
+    top:-12px;
+    left:153px;
+    background: #fff;
+    width:40px;
+    display: flex;
+    justify-content: center;
+    color:#162938;
+}
+
+.main h1 {
+    display: flex;
+    justify-content: center;
+    font-size:2rem;
+    color: #162938;
+    margin: 15px 0;
+}
+
+.main .input-box {
+    margin: 10px 0;
+}
+
+.hidden-main {
+    visibility:;
+}
+
+.input-box label {
+    font-size:1.2rem;
+}
+
+.input-box input {
+    width: 100%;
+    padding-left: 13px;
+    margin:6px 0;
+    border-radius: 10px;
+    border:2px solid grey;
+    padding: 12px 15px;
+}
+
+.main .forgot  {
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+    
+}
+
+.main .forgot a {
+    text-decoration: none;
+    color:#3498DB;
+    font-weight: 550;
+    font-size:18px;
+}
+
+.main .sign {
+    width:100%;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 10px;
+    background: #0091ea;
+    border: none;
+    outline: none;
+    font-size:1.2rem;
+    color:#fff;
+    cursor: pointer;
+}
+
+.main .ac {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+    font-size:18px;
+}
+
+.ac a {
+    text-decoration: none;
+    color: #3498DB;
+    font-weight: 550;
+}
+
+.popup{
+    position: absolute;
+    width: 400px;
+    background:#fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 5px grey;
+    border: 1px solid grey;
+    visibility: hidden;
+    
+}
+
+.popup   .fa-xmark {
+    display: flex;
+    justify-content:flex-end;
+    cursor: pointer;
+}
+ 
+.open-popup {
+visibility: visible;
+ }
+
+.popup .text{
+    margin:5px 0;
+}
+.popup h2 {
+    color: #333;
+    font-weight: 600;
+}
+
+.popup p {
+    font-size: 16px;
+    margin: 13px 0;    
+}
+
+.popup label {
+    font-size: 18px;
+}
+ 
+.popup input {
+    width: 100%;
+    padding:8px;
+    margin:5px 0;
+    border-radius: 6px;
+    border: 1px solid;
+}
+
+.popup button {
+    padding:8px;
+    background-color: dodgerblue;
+    border:0;
+    outline: none;
+    color: #fff;
+    font-weight: 500;
+    margin: 20px 0 10px 0;
+    border-radius: 6px;
+    font-size: 14px;
+    
+}
